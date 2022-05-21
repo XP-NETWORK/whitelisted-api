@@ -4,7 +4,7 @@ import fs from 'fs'
 import config, { chainNoncetoName } from "./config";
 import { validate, advice, auth } from "./helpers";
 import ContractService from "./ContractService";
-import { ContractStruct } from "../types";
+import { ContractStruct } from "./types";
 
 
 const _contractService = ContractService()

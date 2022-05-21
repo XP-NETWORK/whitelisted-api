@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { ContractStruct } from '../types'
+import { ContractStruct } from './types'
 import path from 'path'
 
 class ContractService {
